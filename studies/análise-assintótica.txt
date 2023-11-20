@@ -1,0 +1,7 @@
+Tenta estipular a complexidade de um algoritmo -> tempo de processamento, baseado em funções de tempo (t x n);
+Função que é expressa por uma reta: 
+
+O(n) [Big-O] -> função linear -> cresce linearmente, baseada no tamanho.
+O(1) -> função constante -> independente do tamanho, terá o mesmo comportamento
+
+https://prnt.sc/ogCFuzE9IYan
