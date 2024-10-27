@@ -3,6 +3,11 @@
 #include <string.h>
 #include <stdbool.h>
 
+/*
+    App simples para inverter strings.
+    Para isso, foi utilizado a estrutura de dados 'Pilha'.
+*/  
+
 typedef int Amount;
 
 typedef struct head List;
