@@ -2,3 +2,6 @@ remake/
 studies/
 projects/lib
 projects/obj
+projects/bin
+projects/apps/challenge.c
+projects/Makefile
