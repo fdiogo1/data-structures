@@ -5,7 +5,7 @@ INCLUDE = ./include
 LIB = ./lib
 OBJ = ./obj
 SRC = ./src
-DIR = C:\Users\Admin\Desktop\Estrutura de Dados\codes\projects
+DIR = C:\Users\Admin\Desktop\Developer\ws-data-structures\projects
 
 # -O3 é uma otimização, tenta melhorar a performance de loops... Otimiza o código fonte na hora de gerar o binário
 # -Wall = mostra todos os warnings (não necessariamente um erro, irá compilar mesmo assim, mas é importante tratar todos os possíveis)
@@ -66,8 +66,8 @@ $(BIN)/%: $(APPS)/%.c
 	gcc $(FLAGS) $< $(LIBS) -I $(INCLUDE) -o $@
 
 clean:
-	del /q "$(DIR)\obj\*.*"
-	del /q "$(DIR)\bin\*.*"
-	del /q "$(DIR)\lib\*.*"
+	rm -f obj/*
+	rm -f bin/*
+	rm -f lib/*
 cleanapps:
-	del /q "$(DIR)\bin\*.*"
+	rm -f bin/*

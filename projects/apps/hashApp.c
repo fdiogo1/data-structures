@@ -13,9 +13,11 @@ int main(void)
     insert(table, "Tata2");
     insert(table, "Carol");
     insert(table, "Zacharias");
+    insert(table, "Raissa");
     printTable(table);
     find(table, "Zika");
     find(table, "Diogo");
     find(table, "tata");
+    find(table, "Raissa");
     unloadTable(&table);
 }

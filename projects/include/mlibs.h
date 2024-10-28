@@ -8,10 +8,5 @@ void selectionSort(int *v, int l, int r);
 void bubbleSort(int *v, int l, int r);
 int compareStrings(char *text1, char *text2);
 
-
 /***********************************************************************************/
-
-
-
-
 #endif
